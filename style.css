@@ -1,0 +1,9 @@
+*{
+font-family: "Poppins", sans-serif;
+ font-family: "Hind Siliguri", sans-serif;
+}
+.active {
+  background-color: #422AD5;
+  color: white;
+    border-radius: 8px;
+}

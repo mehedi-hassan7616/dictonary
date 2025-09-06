@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>english-janala</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+<!-- font intregration -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<!-- style -->
+<link rel="stylesheet" href="style.css">
+
+
+  </head>
+
+
+<body>
+    <header>
+<nav class="container mx-auto">
+        <div class=" md:flex justify-between items-center p-4">
+          <div class="flex items-center  font-bold">
+              <h1>English</h1>
+           
+              <img class="h-10" src="assets/logo.png" alt="" />
+              <h1>জানালা</h1>
+         
+          </div>
+          <div class="levels-container">
+            <div class="flex items-center font-bold gap-5">
+              <H3 class="border-2 p-1 text-[#422AD5]"> <i class="fa-solid fa-question"></i>FAQ</H3>
+              <H3 class="border-2 p-1 text-[#422AD5]"> <a href="">
+               <i class="fa-solid fa-book-open-reader"></i>Learn</H3>
+               </a>
+
+              <H3 class="border-2 p-1 text-[#422AD5]"><i class="fa-solid fa-right-from-bracket"></i>Logout</H3>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <section class="banner  container mx-auto md:flex justify-between items-center p-4">
+        <div class="banner-item  mb-4 ">
+          <h2 class=" mb-4">English is Easy!!</h2>
+<p class=" mb-4">আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে অন্য একটি Level এ</p>
+<input type="text" placeholder="Enter your name" class="input input-bordered w-full max-w-xs mb-4" /><br>
+<input type="password" placeholder="............" class="input input-bordered w-full max-w-xs mb-4" /><br>
+<button class="bg-[#422AD5] text-white p-1 rounded">Get started</button>
+        </div>
+        <div class="image w-full ">
+            <img src="assets/hero-student.png" alt="" />  
+          
+        </div>
+     
+    </section>
+</header>
+<main>
+<section class="container mx-auto p-4 text-center">
+<h3 class="mb-4  font-bold text-2xl p-4  ">Let's Learn Vocabularies</h3>
+
+
+<!-- level-container -->|
+<!-- ------------------------------------------------------
+------------------------------------------------------ -->
+
+ <div id="level-container" class=" flex  flex-wrap  justify-center items-center font-bold gap-5">
+              
+           
+
+
+</div>
+
+
+
+</section>
+
+<section class="container  mx-auto p-4">
+<div>
+    <h2 class="text-center font-bold text-2xl">Frequently Asked Questions</h2>
+</div>
+<!-- <div>
+<div class="mb-4 bg-[#F3F4F6] p-4 ">
+    <h1 class=" font-bold">1. How can I start learning English on this website?<br></h1>
+<p class="">You can start by exploring our beginner lessons, interactive exercises, and quizzes. We also offer structured courses to guide you step by step.</p>
+</div>
+    <h1 class="mb-4 bg-[#F3F4F6] font-bold p-4 ">2. Is this website free to use?</h1>
+    <h1 class="mb-4 bg-[#F3F4F6] font-bold p-4 ">3.  Do I need to create an account?</h1>
+    <h1 class="mb-4 bg-[#F3F4F6] font-bold p-4 ">4. How can I build my English vocabulary?</h1>
+    <h1 class="mb-4 bg-[#F3F4F6] font-bold p-4 ">5. Do you offer certificates for completed courses?</h1>
+</div> -->
+
+</section>
+<!-- word container -->
+<!-- ------------------------------------------------------ -->
+<section id="word-container" class="grid grid-cols-3 gap-5 bg-gray-100 p-4 w-11/12 mx-auto my-4 space-y-4">
+
+<div class="container mx-auto p-4 text-center col-span-3 bg-[#Fff2f2]  p-4">
+<p>আপনি এখনো কোন Lesson Select করেন নি</p>
+<h3 class="font-bold text-2xl">একটি Lesson Select করুন।</h3>
+</div>
+</section>
+
+<!-- modal -->
+<section>
+<!-- <button class="btn" onclick="my_modal_5.showModal()">open modal</button> -->
+<dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+  <div class="modal-box">
+    <div id="details-container" class="space-y-4"></div>
+<div>
+<h2>Eager ( :ইগার)</h2>
+</div>
+<div>
+<h2  class="font-bold">আগ্রহী</h2>
+</div>
+<div>
+<h2  class="font-bold">example</h2>
+<p>She was eager to learn new things.</p>
+</div>
+<div>
+<h2  class="font-bold gap-5">synonym</h2>
+<button class="btn">syn1</button>
+<button class="btn">syn2</button>
+<button class="btn">syn4</button>
+</div>
+    <div class="modal-action">
+      <form method="dialog">
+        <!-- if there is a button in form, it will close the modal -->
+        <button class="btn">Close</button>
+      </form>
+    </div>
+  </div>
+</dialog>
+</section>
+</main>
+<script src="script/index.js"></script>
+</body>
